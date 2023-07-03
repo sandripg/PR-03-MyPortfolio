@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --primary-dark: whitesmoke;
+  --bg-dark: #111111;
+  --primary-light: #111111;
+  --bg-light: whitesmoke;
+  --highlight: #6cace4;
+  --divider: rgb(164, 164, 164);
+  --color-a: #ff9c1d;
+  --color-b: #1e1e1e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  background: linear-gradient(to right, #1e1e1e 50%, #ff9c1d 50%);
+  color: var(--primary-dark);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.body-light {
+
+  background: linear-gradient(to right, #ffffff 50%, #ff9c1d 50%);
+  color: var(--primary-dark);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.body-dark {
+
+  background: linear-gradient(to right, #1e1e1e 50%, #ff9c1d 50%);
+  color: var(--primary-dark);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+
+
+.light {
+  background-color: var(--bg-light);
+  color: var(--primary-light);
+}
+
+main {
+  min-height: 100vh;
+}
+
+a,
+p {
+  font-size: 1.1rem;
+}
