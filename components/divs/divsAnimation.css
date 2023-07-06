@@ -10,16 +10,22 @@
 #text-float {
     position: fixed;
     z-index: 100;
-    margin-right: 30%;
+    margin-right: 0%;
     /* display: flex; */
     /* margin: 0px 0 20px 26px; */
     margin-left: 96px;
-    margin-top: 250px;
+    margin-top: 43vh;
+    width: 78%;
 }
 
 .text-name {
     font-size: clamp(40px, 8vw, 80px);
     margin: 0 0 20px 2px;
+}
+
+.text-name-experience {
+    font-size: clamp(40px, 8vw, 45px);
+    margin: 0 0 20px;
 }
 
 .text-hello {
@@ -30,16 +36,20 @@
 .text-description-container {
     display: flex;
     flex-direction: row;
-    width: 57%;
-    justify-content: flex-start;
+    width: 50%;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 0 0 20px 2px;
+    margin: 0 0 20px;
+    background-color: var(--color-a);
+    /* height: 80%; */
+    align-content: center;
+    align-items: center;
 }
 
 .text-description {
     font-weight: 400;
     text-align: justify;
-
+    padding: 26px;
 }
 
 .scale-in-right>img {

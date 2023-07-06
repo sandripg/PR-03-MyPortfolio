@@ -2,7 +2,7 @@
 
     --font-color: #0f0f0f;
     --bg-color: #fefefe;
-    --color-a: #ff9c1d;
+    --color-a: #08bdbd;
     --color-b: #1e1e1e;
 
 }
@@ -66,7 +66,7 @@ input:checked+.slider:before {
     border-radius: 34px;
     border-width: 1px;
     border-style: solid;
-    border-color: #ff9c1d;
+    border-color: #08bdbd;
 }
 
 .slider.round:before {
