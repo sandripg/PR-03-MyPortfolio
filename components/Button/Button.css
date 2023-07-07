@@ -15,7 +15,7 @@
 
 .switch-container {
     position: fixed;
-    right: 437px;
+    right: 393px;
     margin-bottom: 60px;
     display: flex;
     gap: 5px;
@@ -76,4 +76,50 @@ input:checked+.slider:before {
 .switch-icon-sun {
     width: 20px;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+.item-description>i {
+    color: #64ffda;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.items-descriptions-content {
+    margin-bottom: 10px;
+    line-height: 21px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.title-subcategory {
+    color: #64ffda;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 7px;
+    color: #ffffff
+}
+
+.title-tecnologies {
+    color: #ffffff
+}
+
+.carousel-description-container {
+    margin-top: -12px;
+}
+
+.title-tecnologies-description {
+    color: #64ffda;
+    font-size: small;
 }

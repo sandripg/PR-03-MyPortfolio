@@ -24,8 +24,8 @@
 }
 
 .text-name-experience {
-    font-size: clamp(40px, 8vw, 45px);
-    margin: 0 0 20px;
+    font-size: clamp(40px, 8vw, 38px);
+    margin: 0 0 20px -15px;
 }
 
 .text-hello {
@@ -44,6 +44,7 @@
     /* height: 80%; */
     align-content: center;
     align-items: center;
+    margin-left: -14px;
 }
 
 .text-description {
