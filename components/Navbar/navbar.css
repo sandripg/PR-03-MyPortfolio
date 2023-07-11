@@ -14,20 +14,20 @@
 
 .header-wrap {
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .header-logo {
-    padding-left: 12px;
+    /* padding-left: 12px; */
     /* padding-top: 70px;
     width: 30%; */
 }
 
 .header-logo-img {
-    width: 150px;
+    width: 100px;
     height: auto;
 }
 

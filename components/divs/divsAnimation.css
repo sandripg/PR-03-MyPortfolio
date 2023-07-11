@@ -18,6 +18,18 @@
     width: 78%;
 }
 
+#text-float-projects {
+    /* position: fixed; */
+    /* z-index: 100; */
+    margin-right: 0%;
+    /* display: flex; */
+    /* margin: 0px 0 20px 26px; */
+    margin-left: 16px;
+    margin-top: -8vh;
+    width: 100%;
+}
+
+
 
 #text-float-home {
     position: fixed;
@@ -41,6 +53,12 @@
     font-size: clamp(40px, 8vw, 38px);
     margin: 0 0 20px -15px;
     color: var(--color-a);
+}
+
+.text-name-projects {
+    font-size: clamp(40px, 8vw, 38px);
+    margin: 0 0 20px -15px;
+    color: white;
 }
 
 .text-hello {
