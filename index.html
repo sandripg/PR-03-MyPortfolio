@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./components/Footer/Footer.css">
   <link rel="stylesheet" href="./components/sections/experiencias2.css">
   <link rel="stylesheet" href="./components/ProjectCard/ProjectCard.css">
+  <link rel="stylesheet" href="./components/media/media.css">
 
   <script src="https://kit.fontawesome.com/e7d85d4d61.js" crossorigin="anonymous"></script>
 
@@ -32,32 +33,42 @@
           </a>
         </div>
         <!-- BOTÓN NOCHE/DIA -->
-        <div class="switch-container">
+        <!-- <div class="switch-container">
           <img class="switch-icon-sun" src="./public/luna.svg" alt="noche">
           <label class="theme-switch" for="checkbox">
             <input type="checkbox" id="checkbox" />
             <div class="slider round"></div>
           </label>
           <img class="switch-icon-sun" src="./public/sun.svg" alt="dia">
-        </div>
+        </div> -->
         <!-- NAVBAR -->
-        <nav class="header-nav-options">
+        <!-- <nav class="header-nav-options">
           <ul class="header-nav-options-buttons">
             <li class="nav-item">
-              <a class="nav-item-link" href="/home">
+              <a class="nav-item-link" id="nav-home" href="/home">
                 <p class="description-item-link">Home</p>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-item-link" href="/exp">
+              <a class="nav-item-link" id="nav-experiencias" href="/exp">
                 <p class="description-item-link">Experiencia</p>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-item-link" href="/pr">
+              <a class="nav-item-link" id="nav-proyectos" href="/pr">
                 <p class="description-item-link">Proyectos</p>
               </a>
             </li>
+          </ul>
+        </nav> -->
+
+        <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+        <label for="menu-icon"></label>
+        <nav class="nav">
+          <ul class="pt-5">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Experiencias</a></li>
+            <li><a href="#">Proyectos</a></li>
           </ul>
         </nav>
       </div>
@@ -68,22 +79,22 @@
       </div>
       <ul class="icons-social-media">
         <li class="icon-item">
-          <a href="#">
+          <a href="https://github.com/sandripg" target="_blank">
             <img src="./public/icons8-github.svg" alt="">
           </a>
         </li>
         <li class="icon-item">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/sandra-pompido-gonz%C3%A1lez-b73b9b1a2/" target="_blank">
             <img src="./public/icons8-linkedin.svg" alt="">
           </a>
         </li>
         <li class="icon-item">
-          <a href="#">
+          <a href="https://www.instagram.com/sandri.pg/?hl=es" target="_blank">
             <img src="./public/icons8-instagram.svg" alt="">
           </a>
         </li>
         <li class="icon-item">
-          <a href="#">
+          <a href=" mailto:pogonsa@gmail.com" target="_blank">
             <img src="./public/icons8-gmail.svg" alt="">
           </a>
         </li>
@@ -93,7 +104,8 @@
     </div>
     <!-- CONTENIDO HOME -->
     <main id="main">
-      <!-- <section class="content-container">
+
+      <section class="content-container">
         <div id="text-float-home" class="text-focus-in">
           <h1 class="text-hello">Hola, mi nombre es:</h1>
           <h2 class="text-name">Sandra Pompido</h2>
@@ -116,7 +128,7 @@
             <img src="./public/yotrans.png" alt="">
           </div>
         </section>
-      </section> -->
+      </section>
 
 
       <!-- CONTENIDO EXPERIENCE -->
@@ -311,7 +323,7 @@
 
       <!-- CONTENIDO PROYECTOS -->
 
-      <section class="projects-container">
+      <!-- <section class="projects-container">
         <div id="text-float-projects" class="text-focus-in">
           <div class="text-name-container">
             <h2 class="text-name-projects">3. Proyectos Realizados</h2>
@@ -367,19 +379,30 @@
         </div>
 
       </section>
-
+-->
     </main>
 
     <!-- CONTENIDO FOOTER -->
     <footer>
-      <div class="footer-container">
-        <div class="container-copyright">
-          <span>2023 | Portfolio created <i class="fa-solid fa-heart"></i> by Sandri</span>
-        </div>
+      <!-- iconos y contenido móviles y tablets -->
+      <div class="icons-container-mobile">
+        <a href="https://github.com/sandripg" target="_blank">
+          <img src="./public/icons8-github.svg" alt="">
+        </a>
+        <a href="https://www.linkedin.com/in/sandra-pompido-gonz%C3%A1lez-b73b9b1a2/" target="_blank">
+          <img src="./public/icons8-linkedin.svg" alt="">
+        </a>
+        <a href="https://www.instagram.com/sandri.pg/?hl=es" target="_blank">
+          <img src="./public/icons8-instagram.svg" alt="">
+        </a>
+        <a href=" mailto:pogonsa@gmail.com" target="_blank">
+          <img src="./public/icons8-gmail.svg" alt="">
+        </a>
       </div>
     </footer>
     <script type="module" src="/main.js"></script>
     <script type="module" src="./components/Button/Button.js"></script>
+    <script type="module" src="./components/Navbar/navbar.js"></script>
   </div>
 </body>
 
