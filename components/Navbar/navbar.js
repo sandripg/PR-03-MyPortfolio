@@ -16,8 +16,7 @@ for (let i = 0; i < cbox.length; i++) {
 
         ev.preventDefault(); // Esto hace que el link no cargue la URL a la que apunta
         const linkHref = ev.currentTarget.href; // Almacenamos la URL en una constante
-
-
+        hWrap.style.background = "";
         if (linkHref.includes('/home'))
             main.innerHTML = homeHtml;
         else if (linkHref.includes('/experiencias'))
@@ -32,16 +31,14 @@ for (let i = 0; i < cbox.length; i++) {
 
 for (let i = 0; i < cboxHamburger.length; i++) {
     cboxHamburger[i].addEventListener("click", (ev) => {
-
         ev.preventDefault(); // Esto hace que el link no cargue la URL a la que apunta
         const linkHref = ev.currentTarget.href; // Almacenamos la URL en una constante
 
-
+        hWrap.style.background = "";
         if (linkHref.includes('/home'))
             main.innerHTML = homeHtml;
         else if (linkHref.includes('/experiencias')) {
             main.innerHTML = experienceHtml;
-
         } else if (linkHref.includes('/proyectos')) {
             main.innerHTML = projectsHtml;
         }
