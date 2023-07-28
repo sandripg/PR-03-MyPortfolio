@@ -1,133 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./components/Navbar/navbar.css">
-  <link rel="stylesheet" href="./components/Button/Button.css">
-  <link rel="stylesheet" href="./components/social/icons.css">
-  <link rel="stylesheet" href="./components/divs/divsAnimation.css">
-  <link rel="stylesheet" href="./components/divs/divsExperience.css">
-  <link rel="stylesheet" href="./components/sections/home.css">
-  <link rel="stylesheet" href="./components/Footer/Footer.css">
-  <link rel="stylesheet" href="./components/sections/experiencias2.css">
-  <link rel="stylesheet" href="./components/ProjectCard/ProjectCard.css">
-  <link rel="stylesheet" href="./components/media/media.css">
-
-  <script src="https://kit.fontawesome.com/e7d85d4d61.js" crossorigin="anonymous"></script>
-
-  <title>My Portfolio</title>
-</head>
-
-<body id="body-portfolio">
-  <div class="layout">
-    <!-- HEADER -->
-    <header class="header-container">
-      <!--Menu hamburguesa-->
-      <div class="header-wrap">
-        <div class="header-logo">
-          <a href="#">
-            <img class="header-logo-img" src="./public/logo SP.svg" alt="logo sp">
-          </a>
-        </div>
-        <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
-        <label for="menu-icon"></label>
-        <nav class="nav">
-          <ul class="pt-5">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Experiencias</a></li>
-            <li><a href="#">Proyectos</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="header-wrap-landscape">
-        <div class="header-logo">
-          <a href="#">
-            <img class="header-logo-img" src="./public/logo SP.svg" alt="logo sp">
-          </a>
-        </div>
-        <!-- NAVBAR -->
-        <nav class="header-nav-options">
-          <ul class="header-nav-options-buttons">
-            <li class="nav-item">
-              <a class="nav-item-link" id="nav-home" href="/home">
-                <p class="description-item-link">Home</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-item-link" id="nav-experiencias" href="/experiencias">
-                <p class="description-item-link">Experiencias</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-item-link" id="nav-proyectos" href="/proyectos">
-                <p class="description-item-link">Proyectos</p>
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-      </div>
-
-
-
-    </header>
-
-    <!-- <header class="header-container-projects">
-      <div class="header-wrap">
-        <div class="header-logo">
-          <a href="#">
-            <img class="header-logo-img" src="./public/logo SP.svg" alt="logo sp">
-          </a>
-        </div>
-        <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
-        <label for="menu-icon"></label>
-        <nav class="nav">
-          <ul class="pt-5">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Experiencias</a></li>
-            <li><a href="#">Proyectos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header> -->
-    <!-- iconos y contenido -->
-    <div class="icons-container">
-      <div class="line-element-top">
-      </div>
-      <ul class="icons-social-media">
-        <li class="icon-item">
-          <a href="https://github.com/sandripg" target="_blank">
-            <img src="./public/icons8-github.svg" alt="">
-          </a>
-        </li>
-        <li class="icon-item">
-          <a href="https://www.linkedin.com/in/sandra-pompido-gonz%C3%A1lez-b73b9b1a2/" target="_blank">
-            <img src="./public/icons8-linkedin.svg" alt="">
-          </a>
-        </li>
-        <li class="icon-item">
-          <a href="https://www.instagram.com/sandri.pg/?hl=es" target="_blank">
-            <img src="./public/icons8-instagram.svg" alt="">
-          </a>
-        </li>
-        <li class="icon-item">
-          <a href=" mailto:pogonsa@gmail.com" target="_blank">
-            <img src="./public/icons8-gmail.svg" alt="">
-          </a>
-        </li>
-        <div class="line-element">
-        </div>
-      </ul>
-    </div>
-    <!-- CONTENIDO HOME -->
-    <main id="main">
-
-      <!-- <section class="content-container">
+export const homeHtml = `<section class="content-container">
         <div id="text-float-home" class="text-focus-in">
           <h1 class="text-hello">Hola, mi nombre es:</h1>
           <h2 class="text-name">Sandra Pompido</h2>
@@ -150,12 +21,10 @@
             <img src="./public/yotrans.png" alt="">
           </div>
         </section>
-      </section> -->
+      </section> 
+ `
 
-
-      <!-- CONTENIDO EXPERIENCE -->
-
-      <!-- <section class="experience-container">
+export const experienceHtml = `<section class="experience-container">
         <div class="kenburns-top">
           <img src="./public/pantalla-computadora-espacio-trabajo-oficina-paletas-colores.jpg" alt="">
           <div id="text-float-experience" class="text-focus-in">
@@ -337,15 +206,10 @@
               </div>
             </div>
           </div>
-
-
-
         </div>
-      </section> -->
+      </section>`
 
-      <!-- CONTENIDO PROYECTOS -->
-
-      <section class="projects-container">
+export const projectsHtml = `<section class="projects-container">
         <div id="text-float-projects" class="text-focus-in">
           <div class="text-name-container">
             <h2 class="text-name-projects">3. Proyectos Realizados</h2>
@@ -400,33 +264,4 @@
           sunt excepturi ut porro, vitae necessitatibus dolorem odio veniam quod officia quidem mollitia autem!
         </div>
 
-      </section>
-      -->
-    </main>
-
-    <!-- CONTENIDO FOOTER -->
-    <footer>
-      <!-- iconos y contenido móviles y tablets -->
-      <div class="icons-container-mobile">
-        <a href="https://github.com/sandripg" target="_blank">
-          <img src="./public/icons8-github.svg" alt="">
-        </a>
-        <a href="https://www.linkedin.com/in/sandra-pompido-gonz%C3%A1lez-b73b9b1a2/" target="_blank">
-          <img src="./public/icons8-linkedin.svg" alt="">
-        </a>
-        <a href="https://www.instagram.com/sandri.pg/?hl=es" target="_blank">
-          <img src="./public/icons8-instagram.svg" alt="">
-        </a>
-        <a href=" mailto:pogonsa@gmail.com" target="_blank">
-          <img src="./public/icons8-gmail.svg" alt="">
-        </a>
-      </div>
-    </footer>
-    <script type="module" src="/main.js"></script>
-    <script type="module" src="./components/Button/Button.js"></script>
-    <script type="module" src="./components/Navbar/navbar.js"></script>
-  </div>
-</body>
-
-
-</html>
+      </section>`
