@@ -18,7 +18,7 @@ export const homeHtml = `<section class="content-container">
         </div>
         <section class="home">
           <div class="scale-in-right">
-            <img src=\'./public/yotrans.png\' alt="">
+            <img src="./public/icons8-gmail.svg" alt="">
           </div>
         </section>
       </section> 
