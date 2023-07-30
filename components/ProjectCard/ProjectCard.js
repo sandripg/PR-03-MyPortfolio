@@ -5,7 +5,7 @@
          tech: ['HTML 5', 'CSS 3'],
          github: 'https://github.com/sandripg/PR-01-Web-Responsive',
          link: 'https://moonarome.netlify.app/',
-         img: './public/moonarome_static.jpg'
+         img: '../../public/moonarome_static.jpg'
      }, {
          title: 'Tienda Dinámica',
          status: 'Despliegue ✅',
