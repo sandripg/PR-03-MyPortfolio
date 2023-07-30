@@ -13,7 +13,7 @@
      tech: ['HTML 5', 'CSS 3', 'JS'],
      github: 'https://github.com/sandripg/PR-02-Dynamic-Web',
      link: 'https://moonarome-dynamic.netlify.app',
-     img: './assets/moonarome_dinamic.jpg'
+     img: './public/moonarome_dinamic.jpg'
    },
 
    {
