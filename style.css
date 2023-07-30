@@ -78,3 +78,8 @@ a,
 p {
   font-size: 1.1rem;
 }
+
+.prueba22 {
+
+  content: url("./public/icons8-gmail.svg");
+}
