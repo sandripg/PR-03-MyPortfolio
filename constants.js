@@ -18,7 +18,8 @@ export const homeHtml = `<section class="content-container">
         </div>
         <section class="home">
           <div class="scale-in-right">
-            <img class="homeImgSan" alt="">
+              <img src="./public/yotrans.png" alt="">
+
           </div>
         </section>
       </section> 
