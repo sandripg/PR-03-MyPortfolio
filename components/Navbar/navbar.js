@@ -29,7 +29,6 @@ for (let i = 0; i < cbox.length; i++) {
 
         if (linkHref.includes('/home')) {
             main.innerHTML = homeHtml;
-            location.reload();
         } else if (linkHref.includes('/experiencias'))
             main.innerHTML = experienceHtml;
         else if (linkHref.includes('/proyectos')) {
