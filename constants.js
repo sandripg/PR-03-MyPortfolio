@@ -18,7 +18,7 @@ export const homeHtml = `<section class="content-container">
         </div>
         <section class="home">
           <div class="scale-in-right">
-            <img class="prueba22"  alt="">
+            <img class="homeImgSan" alt="">
           </div>
         </section>
       </section> 
