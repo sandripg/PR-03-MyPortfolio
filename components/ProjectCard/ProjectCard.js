@@ -7,13 +7,13 @@
      link: 'https://moonarome.netlify.app/',
      img: '../public/moonarome_static.jpg'
    }, {
-     title: 'Tienda Dinámica',
+     title: 'Tienda Dinámica 2',
      status: 'Despliegue ✅',
      description: 'Tienda Dinámica con filtro de búsqueda',
      tech: ['HTML 5', 'CSS 3', 'JS'],
      github: 'https://github.com/sandripg/PR-02-Dynamic-Web',
      link: 'https://moonarome-dynamic.netlify.app',
-     img: './public/moonarome_dinamic.jpg'
+     img: './assets/moonarome_dinamic.jpg'
    },
 
    {
