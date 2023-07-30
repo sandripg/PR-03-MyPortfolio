@@ -7,7 +7,7 @@
      link: 'https://moonarome.netlify.app/',
      img: '../public/moonarome_static.jpg'
    }, {
-     title: 'Tienda Dinámica 2',
+     title: 'Tienda Dinámica',
      status: 'Despliegue ✅',
      description: 'Tienda Dinámica con filtro de búsqueda',
      tech: ['HTML 5', 'CSS 3', 'JS'],
