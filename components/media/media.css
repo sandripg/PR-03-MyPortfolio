@@ -1458,6 +1458,8 @@ Header navbar
 
 }
 
+
+
 @media screen and (min-width:991px) and (max-width:1024px) {
 
     .header-wrap {
@@ -1930,6 +1932,13 @@ Header navbar
         width: 45px;
     }
 
+    .description-item-link {
+        color: white;
+        top: 50%;
+        left: 50%;
+        font-size: x-large;
+    }
+
     /* MAIN-HOME */
 
 
@@ -2047,6 +2056,13 @@ Header navbar
         width: 45px;
     }
 
+    .description-item-link {
+        color: white;
+        top: 50%;
+        left: 50%;
+        font-size: x-large;
+    }
+
     /* MAIN-HOME */
 
 
@@ -2129,6 +2145,22 @@ Header navbar
         justify-content: center;
     }
 
+    .projects-container {
+        /* display: flex; */
+        /* -webkit-box-pack: center; */
+        /* -webkit-box-align: center; */
+        /* margin-top: 25%; */
+        min-height: 100vh;
+        margin-top: 21%;
+        /* max-width: 100%; */
+        /* animation: slide-in .5s ease-in-out; */
+        /* width: 100%; */
+        /* padding-top: 22%; */
+        /* justify-content: center; */
+        position: relative;
+        padding: 0 10%;
+    }
+
     .project-element-content {
         padding: 32px;
         display: flex;
@@ -2185,6 +2217,13 @@ Header navbar
     .header-wrap-landscape {
         display: flex;
         width: 100%;
+    }
+
+    .description-item-link {
+        color: white;
+        top: 50%;
+        left: 50%;
+        font-size: x-large;
     }
 
     .header-container {
@@ -2346,6 +2385,22 @@ Header navbar
         max-width: 100%;
         align-items: center;
         justify-content: center;
+    }
+
+    .projects-container {
+        /* display: flex; */
+        /* -webkit-box-pack: center; */
+        /* -webkit-box-align: center; */
+        /* margin-top: 25%; */
+        min-height: 100vh;
+        margin-top: 17%;
+        /* max-width: 100%; */
+        /* animation: slide-in .5s ease-in-out; */
+        /* width: 100%; */
+        /* padding-top: 22%; */
+        /* justify-content: center; */
+        position: relative;
+        padding: 0 10%;
     }
 
     .project-element-content {
