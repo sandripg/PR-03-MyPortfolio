@@ -28,6 +28,7 @@ for (let i = 0; i < cbox.length; i++) {
         hWrap.style.background = "";
 
         if (linkHref.includes('/home')) {
+            location.reload();
             main.innerHTML = homeHtml;
         } else if (linkHref.includes('/experiencias'))
             main.innerHTML = experienceHtml;
@@ -45,9 +46,10 @@ for (let i = 0; i < cboxHamburger.length; i++) {
         const linkHref = ev.currentTarget.href; // Almacenamos la URL en una constante
 
         hWrap.style.background = "";
-        if (linkHref.includes('/home'))
+        if (linkHref.includes('/home')) {
+            location.reload();
             main.innerHTML = homeHtml;
-        else if (linkHref.includes('/experiencias')) {
+        } else if (linkHref.includes('/experiencias')) {
             main.innerHTML = experienceHtml;
         } else if (linkHref.includes('/proyectos')) {
             main.innerHTML = init();

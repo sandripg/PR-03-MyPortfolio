@@ -2,7 +2,7 @@
      title: 'Tienda Estática',
      status: 'Despliegue ✅',
      description: 'Tienda inventada de ventas de Perfumes',
-     tech: ['HTML 5', 'CSS 3'],
+     tech: ['VS Code', 'HTML 5', 'CSS 3'],
      github: 'https://github.com/sandripg/PR-01-Web-Responsive',
      link: 'https://moonarome.netlify.app/',
      img: '../public/moonarome_static.jpg'
