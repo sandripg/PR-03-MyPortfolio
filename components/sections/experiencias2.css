@@ -11,7 +11,6 @@ body {
 }
 
 .wrapper {
-    /* background: linear-gradient(60deg, #420285, #08BDBD); */
     height: 100%;
     width: 100%;
     display: flex;

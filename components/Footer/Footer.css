@@ -12,23 +12,6 @@
 
     height: 100%;
     margin-top: -30px;
-    /* writing-mode: vertical-rl; */
     right: 0px;
     position: fixed;
-    /* text-orientation: sideways; */
-}
-
-.container-copyright {
-    display: flex;
-
-    color: var(--color-b);
-    padding: 10px;
-}
-
-.container-copyright>span {
-    font-size: small;
-}
-
-.container-copyright i {
-    color: #ff0202;
 }
