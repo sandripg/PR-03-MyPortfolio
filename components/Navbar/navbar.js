@@ -20,6 +20,17 @@ hWrap.style.background = "";
 main.innerHTML = homeHtml;
 
 
+let link = sessionStorage.getItem("ref");
+if (link) {
+    if (link.includes('/home')) {
+        main.innerHTML = homeHtml;
+    } else if (link.includes('/experiencias')) {
+        main.innerHTML = experienceHtml;
+    } else if (link.includes('/proyectos')) {
+        main.innerHTML = init();
+    }
+}
+
 
 for (let i = 0; i < cbox.length; i++) {
     cbox[i].addEventListener("click", (ev) => {
@@ -28,7 +39,6 @@ for (let i = 0; i < cbox.length; i++) {
         hWrap.style.background = "";
 
         if (linkHref.includes('/home')) {
-            location.reload();
             main.innerHTML = homeHtml;
         } else if (linkHref.includes('/experiencias'))
             main.innerHTML = experienceHtml;
@@ -47,13 +57,14 @@ for (let i = 0; i < cboxHamburger.length; i++) {
 
         hWrap.style.background = "";
         if (linkHref.includes('/home')) {
-            location.reload();
             main.innerHTML = homeHtml;
         } else if (linkHref.includes('/experiencias')) {
             main.innerHTML = experienceHtml;
         } else if (linkHref.includes('/proyectos')) {
             main.innerHTML = init();
         }
+        location.reload();
+        sessionStorage.setItem("ref", linkHref);
 
     });
 }
