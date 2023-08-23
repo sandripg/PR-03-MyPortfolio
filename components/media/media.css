@@ -1939,7 +1939,7 @@
         margin-right: 0%;
         display: flex;
         margin-left: 78px px;
-        margin-top: 28vh;
+        margin-top: 24vh;
         flex-direction: column;
         align-items: flex-start;
         z-index: 0;
@@ -1963,7 +1963,7 @@
     .text-description-home {
         font-weight: 400;
         text-align: justify;
-        line-height: 37px;
+        line-height: 27px;
         font-size: x-large;
     }
 
@@ -2087,7 +2087,7 @@
     .text-description-home {
         font-weight: 400;
         text-align: justify;
-        line-height: 37px;
+        line-height: 33px;
         font-size: x-large;
     }
 
