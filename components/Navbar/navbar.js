@@ -19,6 +19,18 @@ const hWrap = document.querySelector('.header-container');
 hWrap.style.background = "";
 main.innerHTML = homeHtml;
 
+const headerAhref = document.querySelectorAll('.header-logo-a');
+
+
+for (let i = 0; i < headerAhref.length; i++) {
+    headerAhref[i].addEventListener("click", (ev) => {
+        ev.preventDefault(); // Esto hace que el link no cargue la URL a la que apunta
+        sessionStorage.setItem("ref", null);
+        location.reload();
+
+    });
+}
+
 
 let link = sessionStorage.getItem("ref");
 if (link) {
